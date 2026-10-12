@@ -12,14 +12,17 @@
 - Persistent local database with H2 database console
 
 ## Running the Application
-1. Clone & redirect into repository
+1. Obtain application folder through ```git clone``` or extracted .zip folder
 ```
 git clone https://github.com/belladj/shop-warehouse-api.git
+```
+2. Redirect into repository
+```
 cd shop-warehouse-api
 ```
-2. Install packages with ```mvn clean install```
-3. Run package with ```mvn spring-boot:run```
-4. If no errors detected, application should work in ```localhost:8080```
+3. Install packages with ```mvn clean install```
+4. Run package with ```mvn spring-boot:run```
+5. If no errors detected, application should work in ```localhost:8080```
 ### Accessing Database
 1. To access database console, go to ```localhost:8080/h2-console```
 2. Enter these credentials, then click 'Connect' after ensuring it was correct from 'Test Connection'
